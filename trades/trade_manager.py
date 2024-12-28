@@ -11,7 +11,7 @@ class TradeManager:
         self.user_agent = user_agent
         self.web3 = web3
 
-    def open_position(self, amount, position_type):
+    def open_position(self, amount, position_type="long"):
         logger.info(f"Opening {position_type} position for {self.account} with {amount}")
 
     def close_position(self):
