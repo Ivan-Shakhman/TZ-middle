@@ -15,4 +15,3 @@ class ProxyManager:
             proxy = random.choice(self.proxies)
             return proxy.split("|")[0], proxy.split("|")[1]
         return random.choice(self.proxies)
-
